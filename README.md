@@ -38,7 +38,7 @@ To get set up:
 
 - you may notice that not many starships come back from the API's starship endpoint -- if you explore the data in postman you will find urls with query strings to get more pages of startships. Can you think of a way to integrate this into your app and show the user all of the starships?
 
-- Enhance the `<Starship>` component to render a `<Pilot>` component that lists the names of the pilots for that starship.
+- Enhance the `<Starship>` component list the names of the pilots for that starship by mapping the data to a `<Pilot>` component.
   - If the starship has no pilots, display a "No Pilots" message.
 
 **HINT:** research mapping an array of pending promises and awaiting for them all with `Promise.all()`. This is much easier this `async/await`. But be careful! you will want to use `async/await` along with `useEffect` [correctly](https://harrisonstandeffer.com/async-await-in-react-use-effect-hooks/) in React!
