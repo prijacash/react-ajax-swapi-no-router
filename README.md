@@ -26,7 +26,7 @@ To get set up:
 
 2. In your `<App>` render a `<Starships>` component that obtains all of the starships from the SWAPI.
 
-3. Your `<Starships>` component should map the data retrived from the SWAPI and map it to `<Starship>` components that it renders. Include at least the **name** and **class** of the starship and any other data you think is interesting to show th user.
+3. Your `<Starships>` component should map the data retrived from the SWAPI into to `<Starship>` components that get rendered. Include at least the **name** and **class** of the starship and any other data you think is interesting to show th user in the `<Starship>` component.
 
 ## Hints
 
@@ -47,9 +47,7 @@ To get set up:
 
 ---
 
-Adapted from [react-ajax-swapi](https://github.com/WDI-SEA/react-ajax-swapi) to not use react-router-dom
-
----
+Adapted from [react-ajax-swapi](https://github.com/WDI-SEA/react-ajax-swapi) to not use the react-router-dom
 
 ## Licensing
 1. All content is licensed under a CC-BY-NC-SA 4.0 license.
